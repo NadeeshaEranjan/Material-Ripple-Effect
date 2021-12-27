@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Material Ripple Effect</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="new-style-container"></div>
+
+	<a href="#123" class="btn-ripple theme">Button</a>
+
+
+	<div class="color-changer">
+		<label class="new-ripple-color">Ripple Color : <span><input type="color" id="html5colorpicker" onchange="colorPicker($(this).val());"></span></label>
+
+		<label>
+			<span>#</span>
+			<input type="text" name="" id="colorCode" maxlength="6">
+		</label>
+		<button onclick="hashColor();">change color</button>
+	</div>
+
+</body>
+</html>
